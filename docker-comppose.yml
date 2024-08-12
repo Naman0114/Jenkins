@@ -1,0 +1,5 @@
+services:
+  python:
+    build: .
+    container_name: python1
+    
