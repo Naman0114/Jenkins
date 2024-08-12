@@ -6,7 +6,7 @@ pipeline{
     stages{
      stage('Build Container'){
             steps{
-                sh 'docker-compose up'
+                sh ' sudo docker-compose up'
             }
         }
     }
