@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-app = FASTAPI()
+app = FastAPI()
 
 @app.get("/")
 def read_root():
