@@ -2,7 +2,7 @@ services:
   python:
     build: .
     container_name: py1
-    command: uvicorn --host 0.0.0.0 --port 8000 --reload
+    command: uvicorn First.py:python --host 0.0.0.0 --port 8000 --reload
     ports:
     - "8000:8000"
     
