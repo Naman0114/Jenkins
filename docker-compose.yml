@@ -2,7 +2,7 @@ services:
   python:
     build: .
     container_name: py1
-    command: uvicorn main:app --host 0.0.0.0 --port 80 --reload
+    command: uvicorn src.main:app --host 0.0.0.0 --port 80 --reload
     ports:
     - "80:80"
     
